@@ -34,6 +34,7 @@ public class Main {
         WebElement monitors = driver.findElement(By.xpath("//a[text()='Monitors']"));
         WebElement lumia1520 = driver.findElement(By.xpath("//a[text()='Nokia lumia 1520']"));
         WebElement galaxys7 = driver.findElement(By.xpath("//a[text()='Samsung galaxy s7']"));
+        //-------------------------------------------------------------------------------------------
         System.out.println(home.getText());
         home.click();
         System.out.println(contact.getText());
