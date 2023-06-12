@@ -31,9 +31,10 @@ public class Main {
         WebElement categories = driver.findElement(By.xpath("//a[text()='CATEGORIES']"));
         WebElement phones = driver.findElement(By.xpath("//a[text()='Phones']"));
         WebElement laptops = driver.findElement(By.xpath("//a[text()='Laptops']"));
-        WebElement lumia1520 = driver.findElement(By.xpath("//div[@class='card h-100']//a"));
         WebElement monitors = driver.findElement(By.xpath("//a[text()='Monitors']"));
-        /*System.out.println(home.getText());
+        WebElement lumia1520 = driver.findElement(By.xpath("//a[text()='Nokia lumia 1520']"));
+        WebElement galaxys7 = driver.findElement(By.xpath("//a[text()='Samsung galaxy s7']"));
+        System.out.println(home.getText());
         home.click();
         System.out.println(contact.getText());
         contact.click();
@@ -48,19 +49,19 @@ public class Main {
         System.out.println(prev.getText());
         prev.click();
         System.out.println(next.getText());
-        next.click();*/
-        /*System.out.println(categories.getText());
+        next.click();
+        System.out.println(categories.getText());
         categories.click();
         System.out.println(phones.getText());
         phones.click();
         System.out.println(laptops.getText());
         laptops.click();
         System.out.println(monitors.getText());
-        monitors.click();*/
+        monitors.click();
         System.out.println(lumia1520.getText());
         lumia1520.click();
-       /* System.out.println(laptops.getText());
-        laptops.click();*/
+        System.out.println(galaxys7.getText());
+        galaxys7.click();
 
     }
 }
