@@ -16,7 +16,7 @@ public class Main {
         button.click();*/
 
         //Demo blaze
-        ChromeDriver driver = new ChromeDriver();
+        /*ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.demoblaze.com/#");
         Thread.sleep(5000);
@@ -62,7 +62,7 @@ public class Main {
         System.out.println(lumia1520.getText());
         lumia1520.click();
         System.out.println(galaxys7.getText());
-        galaxys7.click();
+        galaxys7.click();*/
 
     }
 }
