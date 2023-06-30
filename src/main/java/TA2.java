@@ -32,7 +32,7 @@ public class TA2 {
         // Bỏ qua alert
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
-        alert.dismiss();
+        alert.accept();
         // Click vào cart
         click("//li/a[text()='Cart']");
         text("//td[text()='Samsung galaxy s6']");
